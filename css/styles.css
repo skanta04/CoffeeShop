@@ -1,0 +1,102 @@
+body {
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a :hover {
+    background-color: white;
+}
+
+a :active {
+    background-color: rgb(102, 148, 223);
+}
+.headerAndFooter {
+    background-color: burlywood;
+}
+
+.navButton {
+    border-radius: 20px;
+    padding: 1em;
+    font-size: 15px;
+    width: 100px;
+}
+
+.items {
+    text-align: center;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.navButton {
+    background-color: blanchedalmond;
+    border: none;
+    width: 150px;
+    margin: 10px;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 4rem;
+}
+
+.title h2 {
+    font-size: 2.5rem;
+}
+
+.title p {
+    font-size: 1.25rem;
+}
+
+.menu-item-background {
+    background-color: tan;
+    padding: 1.5em;
+    width: 500px;
+
+}
+
+.menu-item-background h3 {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.menu-items {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heading {
+    font-size: 4em;
+    text-align: center;
+    font-family: cursive;
+}
+
+.item-img-and-desc {
+    display: grid;
+    gap: 0.3em;
+    grid-template-columns: 1fr 1fr;
+}
+
+#disclaimer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
